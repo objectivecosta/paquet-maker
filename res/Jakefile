@@ -35,7 +35,7 @@ task('build', function (params) {
   }
 
   try {
-    fs.statSync('.packet-maker/init.d')
+    fs.statSync('.paquet-maker/init.d')
   } catch (e) {
     console.log("Missing files (init.d)... Aborting!");
     console.log("Tip: Running paquet-maker might solve it!");
