@@ -13,6 +13,7 @@
     "build",
     "compile"
   ],
+  "repository": "https://github.com/rafaelc0sta/paquet-maker.git",
   "author": "Rafael Costa <rafael@rafaelcosta.me>",
   "license": "MIT"
 }
