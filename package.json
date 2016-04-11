@@ -1,0 +1,18 @@
+{
+  "name": "paquet-maker",
+  "version": "1.0.0",
+  "description": "A maker that builds your node application into a deployable .deb",
+  "main": "paquet-maker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "debian",
+    "package",
+    "maker",
+    "build",
+    "compile"
+  ],
+  "author": "Rafael Costa <rafael@rafaelcosta.me>",
+  "license": "MIT"
+}
