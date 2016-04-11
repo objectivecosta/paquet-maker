@@ -1,6 +1,6 @@
 {
   "name": "paquet-maker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A maker that builds your node application into a deployable .deb",
   "main": "paquet-maker.js",
   "scripts": {
@@ -15,5 +15,9 @@
   ],
   "repository": "https://github.com/rafaelc0sta/paquet-maker.git",
   "author": "Rafael Costa <rafael@rafaelcosta.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "./lib/paquet-maker",
+  "bin": {
+    "paquet-maker": "./bin/paquet-maker"
+  }
 }
