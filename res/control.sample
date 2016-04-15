@@ -2,7 +2,7 @@ Package: app_name
 Version: app_tag
 Section: base
 Priority: optional
-Architecture: i386
+Architecture: i386, arm64
 Depends:
 Maintainer: app_author
 Description: Built using Rafael Costa's jake recipes
