@@ -5,4 +5,4 @@ Priority: optional
 Architecture: all
 Depends:
 Maintainer: app_author
-Description: Built using Rafael Costa's jake recipes
+Description: Built using paquet-maker's jake recipes
