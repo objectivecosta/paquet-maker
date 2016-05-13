@@ -48,7 +48,7 @@ task('build', function (params) {
   var userDir;
   if (process.env.user != null && process.env.user != undefined && process.env.user != 'root') {
     user = process.env.user;
-    userDir = 'home/' + user;
+    userDir = exec("eval echo ~" + user);
   } else {
     userDir = user;
   }
