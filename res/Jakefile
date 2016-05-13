@@ -53,6 +53,10 @@ task('build', function (params) {
     userDir = user;
   }
 
+  if (process.env.appDir != null && process.env.appDir != undefined) {
+    userDir = process.env.appDir;
+  }
+
   var addInitd = false;
   if (process.env.initd == 'true') {
     addInitd = true;
